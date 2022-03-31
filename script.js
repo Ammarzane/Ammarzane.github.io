@@ -4,9 +4,10 @@ const updateScreen = (number) => {
     calculatorScreen.value = number
 }
 
-let prevNumber = '';
-let calculationOperator = '';
-let currentNumber = '';
+let prevNumber = "";
+let calculationOperator = "";
+let currentNumber = "";
+let result = "";
 
 const numbers = document.querySelectorAll(".number")
 const inputNumber = (number) => {
